@@ -1,0 +1,104 @@
+/* stylesheet for sign up page by Jude Aquila */
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: "Calibri", Helvetica, sans-serif;
+	background-color: #f1f1f1;
+}
+
+#topBar {
+	width: 100%;
+	border-bottom: 3px solid #333;
+	background-color: #666;
+	height: 48px;
+}
+
+h2 {
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	padding: 8px;
+	color: #fff;
+}
+
+#container {
+	width: 1000px;
+	margin: 0px auto;
+	padding: 8px;
+	border: 0;
+}
+
+#containerForm {
+	width: 550px;
+	margin: 0px auto;
+	padding: 18px 10px;
+	border: 1px solid #333;
+	background-color: #e4e4e4;
+}
+
+.formAvatar {
+	margin: 0px auto;
+	width: 50px;
+}
+
+img {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	border: 0;
+	text-align: center;
+}
+
+.formFields {
+	width: 500px;
+	padding: 12px;
+	margin: 0px auto;
+}
+
+label {
+	margin: 8px 0;
+	padding: 12px;
+}
+
+input[type=text], input[type=password], input[type=email] {
+	width: 100%;
+	margin: 8px 0;
+	padding: 12px 24px;
+	box-sizing: border-box;
+	border: 0;
+	border-bottom: 1px solid #333;
+	background-color: #e4e4e4;
+}
+
+button {
+	display: block;
+	margin: 8px 0;
+	padding: 12px 24px;
+	color: #fff;
+	background-color: #333;
+	border: 0;
+	border-radius: 5px;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #999;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	color: cyan;
+}
+
+#footer {
+	width: 100%;
+	background-color: #666;
+	height: 48px;
+}
